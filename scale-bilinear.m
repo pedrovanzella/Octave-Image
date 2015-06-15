@@ -5,5 +5,11 @@ I = imread("cow_small.png");
 inRows = rows(I);
 inCols = columns(I);
 
-zz = 1./(inRows.^2 + inCols^2 + 1);
-[xxi, yyi] = meshgrid(1:(1/scale):size(zz,1), 1:(1/scale):size(zz,2));
+outRows = ceil(inRows * scale);
+outCols = ceil(inCols * scale);
+
+[XI, YI] = meshgrid (linspace (1, inCols, outCols), linspace (1, inRows, outRows));
+
+nI = interp2(double(I(:, :, 2)), XI, YI, "linear", NA);
+
+imwrite(I, "cow_bilinear.png");
