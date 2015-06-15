@@ -15,3 +15,5 @@ for i = 3:-1:1
 endfor
 
 imwrite(nI, "cow_cubic.png");
+
+## We need to use graybicubic from here: http://apt-browse.org/browse/ubuntu/trusty/universe/amd64/octave-image/2.2.0-3/file/usr/share/octave/packages/image-2.2.0/imremap.m
