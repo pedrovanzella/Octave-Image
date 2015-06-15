@@ -1,5 +1,5 @@
 pkg load image;
-scale = 2;
+scale = 1.5;
 
 I = imread("cow_very_small.png");
 inRows = rows(I);

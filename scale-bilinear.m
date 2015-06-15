@@ -1,5 +1,5 @@
 pkg load image;
-scale = 0.5;
+scale = 1.5;
 
 I = imread("cow_very_small.png");
 inRows = rows(I);
@@ -14,7 +14,7 @@ for i = 3:-1:1
           nI(:, :, i) = interp2(I(:, :, i), XI, YI, "linear", NA);
 endfor
 
-imwrite(nI, "cow_bilinear_smallest.png");
+imwrite(nI, "cow_bilinear.png");
 
 ## 0.23s - Grow
 ## 0.15s - Shrink
