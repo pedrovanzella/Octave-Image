@@ -15,3 +15,6 @@ for i = 3:-1:1
 endfor
 
 imwrite(nI, "cow_nearest.png");
+
+## 0.17s - Shrink
+## 0.21s - Grow
