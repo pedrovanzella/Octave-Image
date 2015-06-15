@@ -11,7 +11,7 @@ outCols = ceil(inCols * scale);
 [XI, YI] = meshgrid (linspace (1, inCols, outCols), linspace (1, inRows, outRows));
 
 for i = 3:-1:1
-          nI(:, :, i) = interp2(double(I(:, :, 2)), XI, YI, "linear", NA);
+          nI(:, :, i) = interp2(I(:, :, i), XI, YI, "linear", NA);
 endfor
 
 imwrite(nI, "cow_bilinear.png");
