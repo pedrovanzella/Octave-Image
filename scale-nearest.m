@@ -1,20 +1,9 @@
 pkg load image;
-scale = 1.5;
 
 I = imread("cow_very_small.png");
-inRows = rows(I);
-inCols = columns(I);
 
-outRows = ceil(inRows * scale);
-outCols = ceil(inCols * scale);
-
-[XI, YI] = meshgrid (linspace (1, inCols, outCols), linspace (1, inRows, outRows));
-
-for i = 3:-1:1
-          nI(:, :, i) = interp2(I(:, :, i), XI, YI, "nearest", NA);
-endfor
-
-imwrite(nI, "cow_nearest.png");
+nI = imresize(I, 0.5, "nearest");
+imwrite(nI, "cow_nearest_smallest.png");
 
 ## 0.17s - Shrink
 ## 0.21s - Grow
