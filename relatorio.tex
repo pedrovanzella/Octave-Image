@@ -285,6 +285,18 @@ Este código é, novamente, muito similar ao da Figura~\ref{lst:scale:linear} e 
 
 \subsection{Comparação de Resultados}\label{sec:redimensionamento:comparacao}
 
+\begin{table}[H]
+  \centering
+  \begin{tabular}[H]{c || c | c | c}
+   & \textit{Nearest Neighbor} & Bilinear & Bicúbica \\
+    \hline
+   Redução & 0.17s & 0.15s & 0.19s \\
+   Ampliação & 0.21s & 0.23s & 0.29s
+  \end{tabular}
+  \caption{Resultados consolidados}
+  \label{tab:scale:resultados}
+\end{table}
+
 \section{Rotação}\label{sec:rotacao}
 
 Novamente temos um problema não trivial, com um balanço entre qualidade e eficiência~\cite{kopf:2011}.

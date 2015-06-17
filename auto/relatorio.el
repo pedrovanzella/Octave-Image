@@ -44,6 +44,7 @@
     "tab:bicubic"
     "lst:scale:cubic"
     "sec:redimensionamento:comparacao"
+    "tab:scale:resultados"
     "sec:rotacao"
     "sec:rotacao:nearest"
     "lst:rotate:nearest"
