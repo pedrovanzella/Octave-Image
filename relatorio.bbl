@@ -79,6 +79,31 @@
       \field{title}{Comparison of Commonly Used Image Interpolation Methods}
       \field{year}{2013}
     \endentry
+    \entry{keys:1981}{article}{}
+      \name{labelname}{1}{}{%
+        {{hash=f33d2f451d18b3ec86df0073d1326b1e}{Keys}{K\bibinitperiod}{R.}{R\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{hash=f33d2f451d18b3ec86df0073d1326b1e}{Keys}{K\bibinitperiod}{R.}{R\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{f33d2f451d18b3ec86df0073d1326b1e}
+      \strng{fullhash}{f33d2f451d18b3ec86df0073d1326b1e}
+      \field{sortinit}{K}
+      \field{sortinithash}{33bf4c961fa093ee6a297ccbd88eacc0}
+      \field{labeltitle}{Cubic convolution interpolation for digital image processing}
+      \field{issn}{0096-3518}
+      \field{journaltitle}{Acoustics, Speech and Signal Processing, IEEE Transactions on}
+      \field{month}{12}
+      \field{number}{6}
+      \field{title}{Cubic convolution interpolation for digital image processing}
+      \field{volume}{29}
+      \field{year}{1981}
+      \field{pages}{1153\bibrangedash 1160}
+      \verb{doi}
+      \verb 10.1109/TASSP.1981.1163711
+      \endverb
+      \keyw{Boundary conditions;Convolution;Digital images;Image converters;Image processing;Image sampling;Interpolation;Kernel;Sampling methods;Signal processing algorithms}
+    \endentry
     \entry{kopf:2011}{article}{}
       \name{labelname}{2}{}{%
         {{hash=25901f326ed5464d64c6766e30a6cff7}{Kopf}{K\bibinitperiod}{Johannes}{J\bibinitperiod}{}{}{}{}}%

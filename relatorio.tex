@@ -232,6 +232,13 @@ A função \textsf{imresize()} novamente chamará a função \textsf{interp2()},
 
 A interpolação bicúbica é, das três testadas neste artigo, a mais complexa -- tanto em implementação quanto computacionalmente.~\cite{han2013}
 
+De acordo com~\cite{keys:1981}, podemos calcular a interpola\c{c}ão bicúbica com uma convolu\c{c}ão.
+
+Podemos ver na Figura~\ref{fig:vaca:bicubic} os resultados da interpolação bicúbica.
+
+A Figura~\ref{fig:vaca:bicubic}.a é uma redução em $50\%$. Notamos nela uma borda preta introduzida pela interpolação. Este resultado não nos serve, pois geraria discontinuidades nas texturas\footnote{Texturas são muito frequentemente replicadas lado-a-lado em superfícies de jogos, e qualquer discontinuidade estraga a ilusão da superfície}.
+
+A Figura~\ref{fig:vaca:bicubic}.c é uma ampliação em $50\%$. O resultado é bastante satisfatório, com pouco serrilhado. O nível de detalhe da grama e das montanhas ao fundo também é bom.
 
 \begin{figure}[H]
     \begin{minipage}{.2\textwidth}
@@ -253,6 +260,8 @@ A interpolação bicúbica é, das três testadas neste artigo, a mais complexa 
     \label{fig:vaca:bicubic}
 \end{figure}
 
+Na Tabela~\ref{tab:bicubic} vemos os tempos de execução deste algoritmo. Novamente o resultado da redução consta somente como referência, pois a imagem gerada não atende os requisitos do problema.
+
 \begin{table}[H]
     \caption{Tempo de execução}
     \centering
@@ -264,11 +273,15 @@ A interpolação bicúbica é, das três testadas neste artigo, a mais complexa 
     \end{tabular}
 \end{table}
 
+A Figura~\ref{lst:scale:cubic} mostra o código em Octave para realizar a interpolação bicúbica em uma imagem.
+
 \begin{figure}[H]
 \lstinputlisting[language=Octave, lastline=6]{scale-bicubic.m}
 \caption{Código-Fonte para interpolação bicúbica no Octave}
 \label{lst:scale:cubic}
 \end{figure}
+
+Este código é, novamente, muito similar ao da Figura~\ref{lst:scale:linear} e da Figura~\ref{lst:scale:nearest}. A única diferen\c{c}a é na chamada para \textsf{imresize()}, onde se passa o parâmetro \emph{cubic}, que indica que é necessário chamar \textsf{interp2()} com o mesmo parâmetro.
 
 \subsection{Comparação de Resultados}\label{sec:redimensionamento:comparacao}
 
@@ -343,7 +356,6 @@ Podemos ver o resultado na Figura~\ref{fig:vaca:rotacao}.b.
 
 \section{Considerações Finais}
 
-\printbibheading
 \printbibliography
 
 \end{document}
