@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014/Arch Linux) (preloaded format=pdflatex 2015.5.28)  17 JUN 2015 14:08
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014/Arch Linux) (preloaded format=pdflatex 2015.5.28)  17 JUN 2015 14:09
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -23,13 +23,40 @@ File: size12.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 \belowcaptionskip=\skip42
 \bibindent=\dimen102
 )
-(/usr/share/texmf-dist/tex/latex/graphics/graphicx.sty
-Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
+(/usr/share/texmf-dist/tex/latex/geometry/geometry.sty
+Package: geometry 2010/09/12 v5.6 Page Geometry
 
 (/usr/share/texmf-dist/tex/latex/graphics/keyval.sty
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
 \KV@toks@=\toks14
 )
+(/usr/share/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
+Package ifpdf Info: pdfTeX in PDF mode is detected.
+)
+(/usr/share/texmf-dist/tex/generic/oberdiek/ifvtex.sty
+Package: ifvtex 2010/03/01 v1.5 Detect VTeX and its facilities (HO)
+Package ifvtex Info: VTeX not detected.
+)
+(/usr/share/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+)
+\Gm@cnth=\count87
+\Gm@cntv=\count88
+\c@Gm@tempcnt=\count89
+\Gm@bindingoffset=\dimen103
+\Gm@wd@mp=\dimen104
+\Gm@odd@mp=\dimen105
+\Gm@even@mp=\dimen106
+\Gm@layoutwidth=\dimen107
+\Gm@layoutheight=\dimen108
+\Gm@layouthoffset=\dimen109
+\Gm@layoutvoffset=\dimen110
+\Gm@dimlist=\toks15
+)
+(/usr/share/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
+
 (/usr/share/texmf-dist/tex/latex/graphics/graphics.sty
 Package: graphics 2014/10/28 v1.0p Standard LaTeX Graphics (DPC,SPQR)
 
@@ -50,10 +77,10 @@ Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
 (/usr/share/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
 Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
 )
-\Gread@gobject=\count87
+\Gread@gobject=\count90
 ))
-\Gin@req@height=\dimen103
-\Gin@req@width=\dimen104
+\Gin@req@height=\dimen111
+\Gin@req@width=\dimen112
 )
 (/usr/share/texmf-dist/tex/latex/url/url.sty
 \Urlmuskip=\muskip10
@@ -67,16 +94,16 @@ Language: portuges 2008/03/18 v1.2q Portuguese support from the babel system
 
 (/usr/share/texmf-dist/tex/generic/babel/babel.def
 File: babel.def 2014/09/25 3.9l Babel common definitions
-\babel@savecnt=\count88
-\U@D=\dimen105
+\babel@savecnt=\count91
+\U@D=\dimen113
 )
 \l@brazil = a dialect from \language\l@portuges 
 Package babel Info: Making " an active character on input line 145.
 ))
 (/usr/share/texmf-dist/tex/latex/base/inputenc.sty
 Package: inputenc 2014/04/30 v1.2b Input encoding file
-\inpenc@prehook=\toks15
-\inpenc@posthook=\toks16
+\inpenc@prehook=\toks16
+\inpenc@posthook=\toks17
 
 (/usr/share/texmf-dist/tex/latex/base/utf8.def
 File: utf8.def 2014/09/29 v1.1m UTF-8 support for inputenc
@@ -302,9 +329,9 @@ Package: etoolbox 2015/03/19 v2.1d e-TeX tools for LaTeX (JAW)
 
 (/usr/share/texmf-dist/tex/latex/etex-pkg/etex.sty
 Package: etex 2015/03/02 v2.1 eTeX basic definition package (PEB,DPC)
-\et@xins=\count89
+\et@xins=\count92
 )
-\etb@tempcnta=\count90
+\etb@tempcnta=\count93
 )
 (/usr/share/texmf-dist/tex/latex/oberdiek/kvoptions.sty
 Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
@@ -326,7 +353,7 @@ Package etexcmds Info: Could not find \expanded.
 )))
 (/usr/share/texmf-dist/tex/latex/logreq/logreq.sty
 Package: logreq 2010/08/04 v1.0 xml request logger
-\lrq@indent=\count91
+\lrq@indent=\count94
 
 (/usr/share/texmf-dist/tex/latex/logreq/logreq.def
 File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
@@ -334,44 +361,44 @@ File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
 (/usr/share/texmf-dist/tex/latex/base/ifthen.sty
 Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
 )
-\c@tabx@nest=\count92
-\c@listtotal=\count93
-\c@listcount=\count94
-\c@liststart=\count95
-\c@liststop=\count96
-\c@citecount=\count97
-\c@citetotal=\count98
-\c@multicitecount=\count99
-\c@multicitetotal=\count100
-\c@instcount=\count101
-\c@maxnames=\count102
-\c@minnames=\count103
-\c@maxitems=\count104
-\c@minitems=\count105
-\c@citecounter=\count106
-\c@savedcitecounter=\count107
-\c@uniquelist=\count108
-\c@uniquename=\count109
-\c@refsection=\count110
-\c@refsegment=\count111
-\c@maxextratitle=\count112
-\c@maxextratitleyear=\count113
-\c@maxextrayear=\count114
-\c@maxextraalpha=\count115
-\c@abbrvpenalty=\count116
-\c@highnamepenalty=\count117
-\c@lownamepenalty=\count118
-\c@maxparens=\count119
-\c@parenlevel=\count120
-\blx@tempcnta=\count121
-\blx@tempcntb=\count122
-\blx@tempcntc=\count123
-\blx@maxsection=\count124
-\blx@maxsegment@0=\count125
-\blx@notetype=\count126
-\blx@parenlevel@text=\count127
-\blx@parenlevel@foot=\count128
-\blx@sectionciteorder@0=\count129
+\c@tabx@nest=\count95
+\c@listtotal=\count96
+\c@listcount=\count97
+\c@liststart=\count98
+\c@liststop=\count99
+\c@citecount=\count100
+\c@citetotal=\count101
+\c@multicitecount=\count102
+\c@multicitetotal=\count103
+\c@instcount=\count104
+\c@maxnames=\count105
+\c@minnames=\count106
+\c@maxitems=\count107
+\c@minitems=\count108
+\c@citecounter=\count109
+\c@savedcitecounter=\count110
+\c@uniquelist=\count111
+\c@uniquename=\count112
+\c@refsection=\count113
+\c@refsegment=\count114
+\c@maxextratitle=\count115
+\c@maxextratitleyear=\count116
+\c@maxextrayear=\count117
+\c@maxextraalpha=\count118
+\c@abbrvpenalty=\count119
+\c@highnamepenalty=\count120
+\c@lownamepenalty=\count121
+\c@maxparens=\count122
+\c@parenlevel=\count123
+\blx@tempcnta=\count124
+\blx@tempcntb=\count125
+\blx@tempcntc=\count126
+\blx@maxsection=\count127
+\blx@maxsegment@0=\count128
+\blx@notetype=\count129
+\blx@parenlevel@text=\count130
+\blx@parenlevel@foot=\count131
+\blx@sectionciteorder@0=\count132
 \labelnumberwidth=\skip43
 \labelalphawidth=\skip44
 \biblabelsep=\skip45
@@ -382,81 +409,81 @@ Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
 \bibhang=\skip50
 \blx@bcfin=\read1
 \blx@bcfout=\write3
-\c@mincomprange=\count130
-\c@maxcomprange=\count131
-\c@mincompwidth=\count132
+\c@mincomprange=\count133
+\c@maxcomprange=\count134
+\c@mincompwidth=\count135
 Package biblatex Info: Trying to load biblatex default data model...
 Package biblatex Info: ... file 'blx-dm.def' found.
 
 (/usr/share/texmf-dist/tex/latex/biblatex/blx-dm.def)
 Package biblatex Info: Trying to load biblatex custom data model...
 Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
-\c@afterword=\count133
-\c@savedafterword=\count134
-\c@annotator=\count135
-\c@savedannotator=\count136
-\c@author=\count137
-\c@savedauthor=\count138
-\c@bookauthor=\count139
-\c@savedbookauthor=\count140
-\c@commentator=\count141
-\c@savedcommentator=\count142
-\c@editor=\count143
-\c@savededitor=\count144
-\c@editora=\count145
-\c@savededitora=\count146
-\c@editorb=\count147
-\c@savededitorb=\count148
-\c@editorc=\count149
-\c@savededitorc=\count150
-\c@foreword=\count151
-\c@savedforeword=\count152
-\c@holder=\count153
-\c@savedholder=\count154
-\c@introduction=\count155
-\c@savedintroduction=\count156
-\c@namea=\count157
-\c@savednamea=\count158
-\c@nameb=\count159
-\c@savednameb=\count160
-\c@namec=\count161
-\c@savednamec=\count162
-\c@translator=\count163
-\c@savedtranslator=\count164
-\c@shortauthor=\count165
-\c@savedshortauthor=\count166
-\c@shorteditor=\count167
-\c@savedshorteditor=\count168
-\c@labelname=\count169
-\c@savedlabelname=\count170
-\c@institution=\count171
-\c@savedinstitution=\count172
-\c@lista=\count173
-\c@savedlista=\count174
-\c@listb=\count175
-\c@savedlistb=\count176
-\c@listc=\count177
-\c@savedlistc=\count178
-\c@listd=\count179
-\c@savedlistd=\count180
-\c@liste=\count181
-\c@savedliste=\count182
-\c@listf=\count183
-\c@savedlistf=\count184
-\c@location=\count185
-\c@savedlocation=\count186
-\c@organization=\count187
-\c@savedorganization=\count188
-\c@origlocation=\count189
-\c@savedoriglocation=\count190
-\c@origpublisher=\count191
-\c@savedorigpublisher=\count192
-\c@publisher=\count193
-\c@savedpublisher=\count194
-\c@language=\count195
-\c@savedlanguage=\count196
-\c@pageref=\count197
-\c@savedpageref=\count198
+\c@afterword=\count136
+\c@savedafterword=\count137
+\c@annotator=\count138
+\c@savedannotator=\count139
+\c@author=\count140
+\c@savedauthor=\count141
+\c@bookauthor=\count142
+\c@savedbookauthor=\count143
+\c@commentator=\count144
+\c@savedcommentator=\count145
+\c@editor=\count146
+\c@savededitor=\count147
+\c@editora=\count148
+\c@savededitora=\count149
+\c@editorb=\count150
+\c@savededitorb=\count151
+\c@editorc=\count152
+\c@savededitorc=\count153
+\c@foreword=\count154
+\c@savedforeword=\count155
+\c@holder=\count156
+\c@savedholder=\count157
+\c@introduction=\count158
+\c@savedintroduction=\count159
+\c@namea=\count160
+\c@savednamea=\count161
+\c@nameb=\count162
+\c@savednameb=\count163
+\c@namec=\count164
+\c@savednamec=\count165
+\c@translator=\count166
+\c@savedtranslator=\count167
+\c@shortauthor=\count168
+\c@savedshortauthor=\count169
+\c@shorteditor=\count170
+\c@savedshorteditor=\count171
+\c@labelname=\count172
+\c@savedlabelname=\count173
+\c@institution=\count174
+\c@savedinstitution=\count175
+\c@lista=\count176
+\c@savedlista=\count177
+\c@listb=\count178
+\c@savedlistb=\count179
+\c@listc=\count180
+\c@savedlistc=\count181
+\c@listd=\count182
+\c@savedlistd=\count183
+\c@liste=\count184
+\c@savedliste=\count185
+\c@listf=\count186
+\c@savedlistf=\count187
+\c@location=\count188
+\c@savedlocation=\count189
+\c@organization=\count190
+\c@savedorganization=\count191
+\c@origlocation=\count192
+\c@savedoriglocation=\count193
+\c@origpublisher=\count194
+\c@savedorigpublisher=\count195
+\c@publisher=\count196
+\c@savedpublisher=\count197
+\c@language=\count198
+\c@savedlanguage=\count199
+\c@pageref=\count200
+\c@savedpageref=\count201
 \shorthandwidth=\skip51
 \shortjournalwidth=\skip52
 \shortserieswidth=\skip53
@@ -474,13 +501,13 @@ Package biblatex Info: ... file 'biblatex.def' found.
 
 (/usr/share/texmf-dist/tex/latex/biblatex/biblatex.def
 File: biblatex.def 
-\c@textcitecount=\count199
-\c@textcitetotal=\count200
-\c@textcitemaxnames=\count201
-\c@biburlnumpenalty=\count202
-\c@biburlucpenalty=\count203
-\c@biburllcpenalty=\count204
-\c@smartand=\count205
+\c@textcitecount=\count202
+\c@textcitetotal=\count203
+\c@textcitemaxnames=\count204
+\c@biburlnumpenalty=\count205
+\c@biburlucpenalty=\count206
+\c@biburllcpenalty=\count207
+\c@smartand=\count208
 )
 Package biblatex Info: Trying to load bibliography style 'numeric'...
 Package biblatex Info: ... file 'numeric.bbx' found.
@@ -492,8 +519,8 @@ Package biblatex Info: ... file 'standard.bbx' found.
 
 (/usr/share/texmf-dist/tex/latex/biblatex/bbx/standard.bbx
 File: standard.bbx 2014/06/25 v2.9a biblatex bibliography style (PK/JW/AB)
-\c@bbx:relatedcount=\count206
-\c@bbx:relatedtotal=\count207
+\c@bbx:relatedcount=\count209
+\c@bbx:relatedtotal=\count210
 ))
 Package biblatex Info: Trying to load citation style 'numeric'...
 Package biblatex Info: ... file 'numeric.cbx' found.
@@ -520,12 +547,12 @@ File: biblatex.cfg
 )))
 (/usr/share/texmf-dist/tex/latex/microtype/microtype.sty
 Package: microtype 2013/05/23 v2.5a Micro-typographical refinements (RS)
-\MT@toks=\toks17
-\MT@count=\count208
+\MT@toks=\toks18
+\MT@count=\count211
 LaTeX Info: Redefining \textls on input line 766.
-\MT@outer@kern=\dimen106
+\MT@outer@kern=\dimen114
 LaTeX Info: Redefining \textmicrotypecontext on input line 1285.
-\MT@listname@count=\count209
+\MT@listname@count=\count212
 
 (/usr/share/texmf-dist/tex/latex/microtype/microtype-pdftex.def
 File: microtype-pdftex.def 2013/05/23 v2.5a Definitions specific to pdftex (RS)
@@ -541,30 +568,30 @@ File: microtype.cfg 2013/05/23 v2.5a microtype main configuration file (RS)
 ))
 (/usr/share/texmf-dist/tex/latex/float/float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
-\c@float@type=\count210
-\float@exts=\toks18
+\c@float@type=\count213
+\float@exts=\toks19
 \float@box=\box26
-\@float@everytoks=\toks19
+\@float@everytoks=\toks20
 \@floatcapt=\box27
 )
 (/usr/share/texmf-dist/tex/latex/listings/listings.sty
-\lst@mode=\count211
+\lst@mode=\count214
 \lst@gtempboxa=\box28
-\lst@token=\toks20
-\lst@length=\count212
-\lst@currlwidth=\dimen107
-\lst@column=\count213
-\lst@pos=\count214
-\lst@lostspace=\dimen108
-\lst@width=\dimen109
-\lst@newlines=\count215
-\lst@lineno=\count216
-\lst@maxwidth=\dimen110
+\lst@token=\toks21
+\lst@length=\count215
+\lst@currlwidth=\dimen115
+\lst@column=\count216
+\lst@pos=\count217
+\lst@lostspace=\dimen116
+\lst@width=\dimen117
+\lst@newlines=\count218
+\lst@lineno=\count219
+\lst@maxwidth=\dimen118
 
 (/usr/share/texmf-dist/tex/latex/listings/lstmisc.sty
 File: lstmisc.sty 2014/09/06 1.5e (Carsten Heinz)
-\c@lstnumber=\count217
-\lst@skipnumbers=\count218
+\c@lstnumber=\count220
+\lst@skipnumbers=\count221
 \lst@framebox=\box29
 )
 (/usr/share/texmf-dist/tex/latex/listings/listings.cfg
@@ -578,15 +605,15 @@ Package: caption 2013/05/02 v3.3-89 Customizing captions (AR)
 (/usr/share/texmf-dist/tex/latex/caption/caption3.sty
 Package: caption3 2013/05/02 v1.6-88 caption3 kernel (AR)
 Package caption3 Info: TeX engine: e-TeX on input line 57.
-\captionmargin=\dimen111
-\captionmargin@=\dimen112
-\captionwidth=\dimen113
-\caption@tempdima=\dimen114
-\caption@indent=\dimen115
-\caption@parindent=\dimen116
-\caption@hangindent=\dimen117
+\captionmargin=\dimen119
+\captionmargin@=\dimen120
+\captionwidth=\dimen121
+\caption@tempdima=\dimen122
+\caption@indent=\dimen123
+\caption@parindent=\dimen124
+\caption@hangindent=\dimen125
 )
-\c@ContinuedFloat=\count219
+\c@ContinuedFloat=\count222
 Package caption Info: float package is loaded.
 Package caption Info: listings package is loaded.
 )
@@ -613,43 +640,73 @@ File: brazilian.lbx 2014/06/25 v2.9a biblatex localization (PK/JW/AB)
 Package biblatex Warning: 'babel/polyglossia' detected but 'csquotes' missing.
 (biblatex)                Loading 'csquotes' recommended.
 
-\@quotelevel=\count220
-\@quotereset=\count221
+\@quotelevel=\count223
+\@quotereset=\count224
 (./relatorio.aux)
 \openout1 = `relatorio.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 58.
-LaTeX Font Info:    ... okay on input line 58.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 58.
-LaTeX Font Info:    ... okay on input line 58.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 58.
-LaTeX Font Info:    ... okay on input line 58.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 58.
-LaTeX Font Info:    ... okay on input line 58.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 58.
-LaTeX Font Info:    ... okay on input line 58.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 58.
-LaTeX Font Info:    ... okay on input line 58.
- (/usr/share/texmf-dist/tex/context/base/supp-pdf.mkii
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 60.
+LaTeX Font Info:    ... okay on input line 60.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 60.
+LaTeX Font Info:    ... okay on input line 60.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 60.
+LaTeX Font Info:    ... okay on input line 60.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 60.
+LaTeX Font Info:    ... okay on input line 60.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 60.
+LaTeX Font Info:    ... okay on input line 60.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 60.
+LaTeX Font Info:    ... okay on input line 60.
+
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(85.35826pt, 426.79134pt, 85.35828pt)
+* v-part:(T,H,B)=(71.13188pt, 702.78308pt, 71.13188pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=426.79134pt
+* \textheight=702.78308pt
+* \oddsidemargin=13.08827pt
+* \evensidemargin=13.08827pt
+* \topmargin=-38.1381pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=12.0pt
+* \footskip=30.0pt
+* \marginparwidth=44.0pt
+* \marginparsep=10.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.8pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+(/usr/share/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count222
-\scratchdimen=\dimen118
+\scratchcounter=\count225
+\scratchdimen=\dimen126
 \scratchbox=\box30
-\nofMPsegments=\count223
-\nofMParguments=\count224
-\everyMPshowfont=\toks21
-\MPscratchCnt=\count225
-\MPscratchDim=\dimen119
-\MPnumerator=\count226
-\makeMPintoPDFobject=\count227
-\everyMPtoPDFconversion=\toks22
+\nofMPsegments=\count226
+\nofMParguments=\count227
+\everyMPshowfont=\toks22
+\MPscratchCnt=\count228
+\MPscratchDim=\dimen127
+\MPnumerator=\count229
+\makeMPintoPDFobject=\count230
+\everyMPtoPDFconversion=\toks23
 ) (/usr/share/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
 Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
-)
-
-(/usr/share/texmf-dist/tex/generic/oberdiek/ifpdf.sty
-Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
-Package ifpdf Info: pdfTeX in PDF mode is detected.
 )
 Package pdftexcmds Info: LuaTeX not detected.
 Package pdftexcmds Info: \pdf@primitive is available.
@@ -683,9 +740,9 @@ Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'relatorio.bbl' found.
 
 (./relatorio.bbl)
-Package biblatex Info: Reference section=0 on input line 58.
-Package biblatex Info: Reference segment=0 on input line 58.
-LaTeX Info: Redefining \microtypecontext on input line 58.
+Package biblatex Info: Reference section=0 on input line 60.
+Package biblatex Info: Reference segment=0 on input line 60.
+LaTeX Info: Redefining \microtypecontext on input line 60.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2),
 (microtype)             factor: 1100.
@@ -709,59 +766,58 @@ Package microtype Warning: \nonfrenchspacing is active. Adjustment of
 (microtype)                to add `\microtypecontext{spacing=nonfrench}'
 (microtype)                to your preamble.
 
-\c@lstlisting=\count228
+\c@lstlisting=\count231
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <14.4> on input line 60.
+(Font)              <14.4> on input line 62.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 60.
+(Font)              <7> on input line 62.
 <cow_small.png, id=1, 501.875pt x 376.40625pt>
 File: cow_small.png Graphic file (type png)
  <use cow_small.png>
-Package pdftex.def Info: cow_small.png used on input line 78.
-(pdftex.def)             Requested size: 195.0pt x 146.25221pt.
+Package pdftex.def Info: cow_small.png used on input line 80.
+(pdftex.def)             Requested size: 213.39566pt x 160.04807pt.
  [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 91.
+(Font)              <12> on input line 93.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 91.
+(Font)              <8> on input line 93.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 91.
+(Font)              <6> on input line 93.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 91.
- [2 <./cow_small.png>]
-<cow_nearest_smallest.png, id=17, 75.28125pt x 57.21375pt>
+(Font)              <5> on input line 93.
+
+<cow_nearest_smallest.png, id=11, 75.28125pt x 57.21375pt>
 File: cow_nearest_smallest.png Graphic file (type png)
 
 <use cow_nearest_smallest.png>
-Package pdftex.def Info: cow_nearest_smallest.png used on input line 105.
+Package pdftex.def Info: cow_nearest_smallest.png used on input line 107.
 (pdftex.def)             Requested size: 75.28105pt x 57.2136pt.
 
-<cow_very_small.png, id=18, 150.5625pt x 113.42375pt>
+<cow_very_small.png, id=12, 150.5625pt x 113.42375pt>
 File: cow_very_small.png Graphic file (type png)
  <use cow_very_small.png>
-Package pdftex.def Info: cow_very_small.png used on input line 110.
+Package pdftex.def Info: cow_very_small.png used on input line 112.
 (pdftex.def)             Requested size: 150.56212pt x 113.42346pt.
 
-Overfull \hbox (14.05974pt too wide) in paragraph at lines 110--112
+Overfull \hbox (1.18256pt too wide) in paragraph at lines 112--114
  [][] 
  []
 
-<cow_nearest.png, id=19, 225.84375pt x 170.6375pt>
+<cow_nearest.png, id=13, 225.84375pt x 170.6375pt>
 File: cow_nearest.png Graphic file (type png)
  <use cow_nearest.png>
-Package pdftex.def Info: cow_nearest.png used on input line 115.
+Package pdftex.def Info: cow_nearest.png used on input line 117.
 (pdftex.def)             Requested size: 225.84319pt x 170.63707pt.
 
-Overfull \hbox (89.3408pt too wide) in paragraph at lines 115--117
+Overfull \hbox (76.46362pt too wide) in paragraph at lines 117--119
  [][] 
  []
 
-[3 <./cow_nearest_smallest.png (PNG copy)> <./cow_very_small.png> <./cow_neares
-t.png (PNG copy)>] (/usr/share/texmf-dist/tex/latex/listings/lstlang1.sty
+[2 <./cow_small.png>] (/usr/share/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2014/09/06 1.5e listings language file
 )
 (./scale-nearest.m)
@@ -769,8 +825,9 @@ Package microtype Info: Loading generic settings for font family
 (microtype)             `cmss' (encoding: OT1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
- [4]
-Overfull \hbox (48.22983pt too wide) detected at line 171
+ [3 <./cow_nearest_smallest.png (PNG copy)> <./cow_very_small.png> <./cow_neare
+st.png (PNG copy)>]
+Overfull \hbox (11.43849pt too wide) detected at line 173
 \OML/cmm/m/it/12 f\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 i \OT1/cmr/m/n/12 + \OML/cm
 m/m/it/12 u; j \OT1/cmr/m/n/12 + \OML/cmm/m/it/12 v\OT1/cmr/m/n/12 ) = (1 \OMS/
 cmsy/m/n/12 ^^@ \OML/cmm/m/it/12 u\OT1/cmr/m/n/12 )(1 \OMS/cmsy/m/n/12 ^^@ \OML
@@ -784,115 +841,98 @@ mr/m/n/12 ) + \OML/cmm/m/it/12 uvf\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 i \OT1/cmr/
 m/n/12 + 1\OML/cmm/m/it/12 ; j \OT1/cmr/m/n/12 + 1)
  []
 
-<cow_bilinear_smallest.png, id=31, 75.28125pt x 57.21375pt>
+<cow_bilinear_smallest.png, id=27, 75.28125pt x 57.21375pt>
 File: cow_bilinear_smallest.png Graphic file (type png)
 
 <use cow_bilinear_smallest.png>
-Package pdftex.def Info: cow_bilinear_smallest.png used on input line 184.
+Package pdftex.def Info: cow_bilinear_smallest.png used on input line 186.
 (pdftex.def)             Requested size: 75.28105pt x 57.2136pt.
 File: cow_very_small.png Graphic file (type png)
  <use cow_very_small.png>
-Package pdftex.def Info: cow_very_small.png used on input line 189.
+Package pdftex.def Info: cow_very_small.png used on input line 191.
 (pdftex.def)             Requested size: 150.56212pt x 113.42346pt.
 
-Overfull \hbox (14.05974pt too wide) in paragraph at lines 189--191
+Overfull \hbox (1.18256pt too wide) in paragraph at lines 191--193
  [][] 
  []
 
-<cow_bilinear.png, id=32, 225.84375pt x 170.6375pt>
+<cow_bilinear.png, id=28, 225.84375pt x 170.6375pt>
 File: cow_bilinear.png Graphic file (type png)
  <use cow_bilinear.png>
-Package pdftex.def Info: cow_bilinear.png used on input line 194.
+Package pdftex.def Info: cow_bilinear.png used on input line 196.
 (pdftex.def)             Requested size: 225.84319pt x 170.63707pt.
 
-Overfull \hbox (89.3408pt too wide) in paragraph at lines 194--196
+Overfull \hbox (76.46362pt too wide) in paragraph at lines 196--198
  [][] 
  []
 
-[5 <./cow_bilinear_smallest.png (PNG copy)> <./cow_bilinear.png (PNG copy)>]
-(./scale-bilinear.m) <cow_cubic_smallest.png, id=37, 75.28125pt x 57.21375pt>
+[4 <./cow_bilinear_smallest.png (PNG copy)> <./cow_bilinear.png (PNG copy)>]
+(./scale-bilinear.m) <cow_cubic_smallest.png, id=34, 75.28125pt x 57.21375pt>
 File: cow_cubic_smallest.png Graphic file (type png)
 
 <use cow_cubic_smallest.png>
-Package pdftex.def Info: cow_cubic_smallest.png used on input line 240.
+Package pdftex.def Info: cow_cubic_smallest.png used on input line 242.
 (pdftex.def)             Requested size: 75.28105pt x 57.2136pt.
 File: cow_very_small.png Graphic file (type png)
  <use cow_very_small.png>
-Package pdftex.def Info: cow_very_small.png used on input line 245.
+Package pdftex.def Info: cow_very_small.png used on input line 247.
 (pdftex.def)             Requested size: 150.56212pt x 113.42346pt.
 
-Overfull \hbox (14.05974pt too wide) in paragraph at lines 245--247
+Overfull \hbox (1.18256pt too wide) in paragraph at lines 247--249
  [][] 
  []
 
-<cow_cubic.png, id=38, 225.84375pt x 170.6375pt>
+<cow_cubic.png, id=35, 225.84375pt x 170.6375pt>
 File: cow_cubic.png Graphic file (type png)
  <use cow_cubic.png>
-Package pdftex.def Info: cow_cubic.png used on input line 250.
+Package pdftex.def Info: cow_cubic.png used on input line 252.
 (pdftex.def)             Requested size: 225.84319pt x 170.63707pt.
 
-Overfull \hbox (89.3408pt too wide) in paragraph at lines 250--252
+Overfull \hbox (76.46362pt too wide) in paragraph at lines 252--254
  [][] 
  []
 
-[6] (./scale-bicubic.m) (./rotate-nearest.m) [7 <./cow_cubic_smallest.png (PNG 
-copy)> <./cow_cubic.png (PNG copy)>] (./rotate-bilinear.m) (./rotate-bicubic.m)
+(./scale-bicubic.m) [5 <./cow_cubic_smallest.png (PNG copy)> <./cow_cubic.png (
+PNG copy)>] (./rotate-nearest.m) (./rotate-bilinear.m) (./rotate-bicubic.m)
+[6]
 File: cow_very_small.png Graphic file (type png)
-<use cow_very_small.png>
-Package pdftex.def Info: cow_very_small.png used on input line 310.
+ <use cow_very_small.png>
+Package pdftex.def Info: cow_very_small.png used on input line 312.
 (pdftex.def)             Requested size: 150.56212pt x 113.42346pt.
 
-<cow_nearest_rotated.png, id=46, 186.6975pt x 186.6975pt>
+<cow_nearest_rotated.png, id=42, 186.6975pt x 186.6975pt>
 File: cow_nearest_rotated.png Graphic file (type png)
 
 <use cow_nearest_rotated.png>
-Package pdftex.def Info: cow_nearest_rotated.png used on input line 316.
+Package pdftex.def Info: cow_nearest_rotated.png used on input line 318.
 (pdftex.def)             Requested size: 186.69704pt x 186.69704pt.
 
-Overfull \hbox (11.19823pt too wide) in paragraph at lines 316--318
- [][] 
- []
-
-<cow_bilinear_rotated.png, id=47, 186.6975pt x 186.6975pt>
+<cow_bilinear_rotated.png, id=43, 186.6975pt x 186.6975pt>
 File: cow_bilinear_rotated.png Graphic file (type png)
 
 <use cow_bilinear_rotated.png>
-Package pdftex.def Info: cow_bilinear_rotated.png used on input line 322.
+Package pdftex.def Info: cow_bilinear_rotated.png used on input line 324.
 (pdftex.def)             Requested size: 186.69704pt x 186.69704pt.
 
-Overfull \hbox (11.19823pt too wide) in paragraph at lines 322--324
- [][] 
- []
-
-<cow_cubic_rotated.png, id=48, 186.6975pt x 186.6975pt>
+<cow_cubic_rotated.png, id=44, 186.6975pt x 186.6975pt>
 File: cow_cubic_rotated.png Graphic file (type png)
 
 <use cow_cubic_rotated.png>
-Package pdftex.def Info: cow_cubic_rotated.png used on input line 327.
+Package pdftex.def Info: cow_cubic_rotated.png used on input line 329.
 (pdftex.def)             Requested size: 186.69704pt x 186.69704pt.
-
-Overfull \hbox (11.19823pt too wide) in paragraph at lines 327--329
- [][] 
- []
-
-[8] [9 <./cow_nearest_rotated.png (PNG copy)> <./cow_bilinear_rotated.png (PNG 
-copy)> <./cow_cubic_rotated.png (PNG copy)>]
-Underfull \hbox (badness 1014) in paragraph at lines 349--349
-[]\OT1/cmr/m/n/12 (+10) John W Ea-ton, Da-vid Ba-te-man e So-ren Hau-berg. \OT1
-/cmr/m/it/12 (+10) GNU Oc-tave
- []
-
-[10] (./relatorio.aux)
+ [7 <./cow_nearest_rotated.png (PNG copy)> <./cow_bilinear_rotated.png (PNG cop
+y)> <./cow_cubic_rotated.png (PNG copy)>] [8]
+(./relatorio.aux)
 Package logreq Info: Writing requests to 'relatorio.run.xml'.
 \openout1 = `relatorio.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 12434 strings out of 493109
- 197837 string characters out of 6140856
- 649457 words of memory out of 5000000
- 15681 multiletter control sequences out of 15000+600000
- 12215 words of font info for 64 fonts, out of 8000000 for 9000
+ 12922 strings out of 493109
+ 204854 string characters out of 6140856
+ 675487 words of memory out of 5000000
+ 16147 multiletter control sequences out of 15000+600000
+ 12623 words of font info for 69 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  44i,9n,49p,829b,1802s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/
@@ -908,10 +948,10 @@ s/cm/cmr8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb>
 xmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texmf-dist/fonts/
 type1/public/amsfonts/cm/cmti10.pfb></usr/share/texmf-dist/fonts/type1/public/a
 msfonts/cm/cmti12.pfb>
-Output written on relatorio.pdf (10 pages, 876457 bytes).
+Output written on relatorio.pdf (8 pages, 875449 bytes).
 PDF statistics:
- 108 PDF objects out of 1000 (max. 8388607)
- 69 compressed objects within 1 object stream
+ 102 PDF objects out of 1000 (max. 8388607)
+ 65 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  21048 words of extra memory for PDF output out of 24883 (max. 10000000)
 

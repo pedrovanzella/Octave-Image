@@ -4,7 +4,7 @@
    (TeX-add-to-alist 'LaTeX-provided-class-options
                      '(("article" "12pt")))
    (TeX-add-to-alist 'LaTeX-provided-package-options
-                     '(("babel" "brazil") ("inputenc" "utf8") ("biblatex" "backend=biber") ("microtype" "activate={true,nocompatibility}" "final" "tracking=true" "kerning=true" "spacing=true" "factor=1100" "stretch=10" "shrink=10")))
+                     '(("geometry" "a4paper" "width=150mm" "top=25mm" "bottom=25mm") ("babel" "brazil") ("inputenc" "utf8") ("biblatex" "backend=biber") ("microtype" "activate={true,nocompatibility}" "final" "tracking=true" "kerning=true" "spacing=true" "factor=1100" "stretch=10" "shrink=10")))
    (add-to-list 'LaTeX-verbatim-environments-local "lstlisting")
    (add-to-list 'LaTeX-verbatim-macros-with-braces-local "lstinline")
    (add-to-list 'LaTeX-verbatim-macros-with-braces-local "url")
@@ -16,6 +16,7 @@
     "latex2e"
     "article"
     "art12"
+    "geometry"
     "graphicx"
     "url"
     "babel"
