@@ -1,15 +1,15 @@
 [0] Config.pm:320> INFO - This is Biber 1.9
 [0] Config.pm:323> INFO - Logfile is 'relatorio.blg'
-[49] biber:277> INFO - === Wed Jun 17, 2015, 16:36:26
-[49] Biber.pm:333> INFO - Reading 'relatorio.bcf'
-[140] Biber.pm:635> INFO - Found 5 citekeys in bib section 0
-[168] Biber.pm:3051> INFO - Processing section 0
-[190] Biber.pm:3189> INFO - Looking for bibtex format file 'relatorio.bib' for section 0
-[191] bibtex.pm:990> INFO - Decoding LaTeX character macros into UTF-8
-[191] bibtex.pm:864> INFO - Found BibTeX data source 'relatorio.bib'
-[278] UCollate.pm:66> INFO - Overriding locale 'pt-BR' defaults 'variable = shifted' with 'variable = non-ignorable'
-[278] UCollate.pm:66> INFO - Overriding locale 'pt-BR' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[278] Biber.pm:2928> INFO - Sorting list 'nty' of type 'entry' with scheme 'nty' and locale 'pt-BR'
-[278] Biber.pm:2932> INFO - No sort tailoring available for locale 'pt-BR'
-[294] bbl.pm:517> INFO - Writing 'relatorio.bbl' with encoding 'UTF-8'
-[295] bbl.pm:606> INFO - Output to relatorio.bbl
+[47] biber:277> INFO - === Wed Jun 17, 2015, 17:02:34
+[47] Biber.pm:333> INFO - Reading 'relatorio.bcf'
+[135] Biber.pm:635> INFO - Found 5 citekeys in bib section 0
+[164] Biber.pm:3051> INFO - Processing section 0
+[186] Biber.pm:3189> INFO - Looking for bibtex format file 'relatorio.bib' for section 0
+[187] bibtex.pm:990> INFO - Decoding LaTeX character macros into UTF-8
+[187] bibtex.pm:864> INFO - Found BibTeX data source 'relatorio.bib'
+[274] UCollate.pm:66> INFO - Overriding locale 'pt-BR' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[274] UCollate.pm:66> INFO - Overriding locale 'pt-BR' defaults 'variable = shifted' with 'variable = non-ignorable'
+[274] Biber.pm:2928> INFO - Sorting list 'nty' of type 'entry' with scheme 'nty' and locale 'pt-BR'
+[274] Biber.pm:2932> INFO - No sort tailoring available for locale 'pt-BR'
+[291] bbl.pm:517> INFO - Writing 'relatorio.bbl' with encoding 'UTF-8'
+[292] bbl.pm:606> INFO - Output to relatorio.bbl

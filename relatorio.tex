@@ -287,6 +287,10 @@ Este código é, novamente, muito similar ao da Figura~\ref{lst:scale:linear} e 
 
 Podemos ver na Tabela~\ref{tab:scale:resultados} uma comparação do tempo de execução dos três algoritmos.
 
+Dada a avaliação subjetiva do resultado da imagem, já descartamos as redu\c{c}ões por Interpolação Bilinear (Seção~\ref{sec:redimensionamento:bilinear}) e por Interpolação Bicúbica (Seção~\ref{sec:redimensionamento:bicubica}), que podem ser vistas nas Figuras~\ref{fig:vaca:bilinear}.a e~\ref{fig:vaca:bicubic}.a, respectivamente.
+
+Isto nos deixa a clara escolha do método de \textit{Nearest Neighbor} para a redução de imagens, no nosso hipotético jogo.
+
 \begin{table}[H]
   \centering
   \begin{tabular}[H]{c || c | c | c}
@@ -298,6 +302,14 @@ Podemos ver na Tabela~\ref{tab:scale:resultados} uma comparação do tempo de ex
   \caption{Resultados consolidados}
   \label{tab:scale:resultados}
 \end{table}
+
+A Tabela~\ref{tab:scale:resultados} nos mostra que este método não é necessariamente o mais rápido, mas esta diferen\c{c}a é negligenciável e pode muito bem se dar por alguma peculiaridade do momento de execução dos testes.
+
+Para a ampliação, no entanto, a escolha não é tão trivial. Claramente o resultado da Interpolação Bilinear (Figura~\ref{fig:vaca:bilinear}.c) é melhor que o obtido pelo método de \textit{Nearest Neighbor} (Figura~\ref{fig:vaca:nearest}.c). Como a diferen\c{c}a de tempo de execução entre ambos é negligenciável, se a escolha devesse ser feita somente entre eles, a vitória seria da Interpolação Bilinear.
+
+Entretanto, comparando o resultado da Interpolação Bilinear com a Interpolação Bicúbica (Figuras~\ref{fig:vaca:bilinear}.c e~\ref{fig:vaca:bicubic}, respectivamente), notamos que o resultado da segunda é claramente melhor que o da primeira -- arestas são melhor definidas, principalmente. O problema se encontra no tempo de execução: o algoritmo de Interpolação Bicúbica é consideravelmente mais lento que o de Interpolação Linear.
+
+Não há, então, uma escolha que atenda todos os casos. Num jogo onde menos texturas são utilizadas, ou há um \emph{cache} das mesmas, resultando em poucos redimensionamentos, o custo maior do algoritmo de Interpolação Bicúbica pode compensar a qualidade inferior da Interpolação Bilinear. Caso muitas texturas diferentes sejam utilizadas, é possível que utilizar a Interpolação Bicúbica crie um gargalo na aplica\c{c}ão, causando lentidões e prejudicando a performance do jogo.
 
 \section{Rotação}\label{sec:rotacao}
 
