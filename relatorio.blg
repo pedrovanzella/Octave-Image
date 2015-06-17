@@ -1,0 +1,15 @@
+[0] Config.pm:320> INFO - This is Biber 1.9
+[0] Config.pm:323> INFO - Logfile is 'relatorio.blg'
+[51] biber:277> INFO - === Wed Jun 17, 2015, 14:08:14
+[51] Biber.pm:333> INFO - Reading 'relatorio.bcf'
+[153] Biber.pm:635> INFO - Found 4 citekeys in bib section 0
+[185] Biber.pm:3051> INFO - Processing section 0
+[208] Biber.pm:3189> INFO - Looking for bibtex format file 'relatorio.bib' for section 0
+[210] bibtex.pm:990> INFO - Decoding LaTeX character macros into UTF-8
+[212] bibtex.pm:864> INFO - Found BibTeX data source 'relatorio.bib'
+[306] UCollate.pm:66> INFO - Overriding locale 'pt-BR' defaults 'variable = shifted' with 'variable = non-ignorable'
+[306] UCollate.pm:66> INFO - Overriding locale 'pt-BR' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[306] Biber.pm:2928> INFO - Sorting list 'nty' of type 'entry' with scheme 'nty' and locale 'pt-BR'
+[306] Biber.pm:2932> INFO - No sort tailoring available for locale 'pt-BR'
+[318] bbl.pm:517> INFO - Writing 'relatorio.bbl' with encoding 'UTF-8'
+[319] bbl.pm:606> INFO - Output to relatorio.bbl

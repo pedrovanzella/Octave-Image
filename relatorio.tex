@@ -1,13 +1,13 @@
 \documentclass[12pt]{article}
 
-\usepackage{sbc-template}
-
 \usepackage{graphicx,url}
 
 \usepackage[brazil]{babel}   
-%\usepackage[latin1]{inputenc}  
 \usepackage[utf8]{inputenc}  
 % UTF-8 encoding is recommended by ShareLaTex
+
+\usepackage[backend=biber]{biblatex}
+\addbibresource{relatorio.bib}
 
 \usepackage[activate={true,nocompatibility},final,tracking=true,kerning=true,spacing=true,factor=1100,stretch=10,shrink=10]{microtype}
 % activate={true,nocompatibility} - activate protrusion and expansion
@@ -18,6 +18,8 @@
 
 \usepackage{float}
 \usepackage{listings}
+
+\usepackage{caption}
 
 \usepackage{color}
  
@@ -51,24 +53,12 @@
 
 \title{Análise de Métodos para Processamento de Imagens}
 
-\author{Pedro Pillon Vanzella\inst{1}}
-
-
-\address{Faculdade de Informática -- Pontifícia Universidade Católica do Rio Grande do Sul
-  \\
-Av. Ipiranga, 6681 Partenon Porto Alegre/RS
-\email{pedro@pedrovanzella.com}
-}
+\author{Pedro Pillon Vanzella}
 
 \begin{document} 
 
 \maketitle
      
-\begin{resumo} 
-  Este artigo mostrará uma análise de diferentes métodos para processamento de imagens, dum ponto de vista de Computação Científica. O objetivo é escolher o melhor método para trabalhar com texturas em um jogo 3D. Para este fim, serão analisados métodos para redimensionar e rotacionar imagens.
-\end{resumo}
-
-
 \section{Introdução}\label{sec:introducao}
 
 Dentre as muitas aplicações dos métodos numéricos, uma das mais populares é o processamento de imagens~\cite{acharya:2005}. Estes métodos são empregados em um número de meios, como fotografia digital, tratamento de imagens, produção de vídeo e jogos.
@@ -354,7 +344,7 @@ Podemos ver o resultado na Figura~\ref{fig:vaca:rotacao}.b.
 
 \section{Considerações Finais}
 
-\bibliographystyle{sbc}
-\bibliography{sbc-template}
+\printbibheading
+\printbibliography
 
 \end{document}

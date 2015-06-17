@@ -1,0 +1,106 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 2.4 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \sortlist{nty}{nty}
+    \entry{acharya:2005}{book}{}
+      \name{labelname}{2}{}{%
+        {{hash=5295c4043f860b0b4ce81c561be70e2b}{Acharya}{A\bibinitperiod}{Tinku}{T\bibinitperiod}{}{}{}{}}%
+        {{hash=791ce8f559dc99df71be7e28f6ceefdb}{Ray}{R\bibinitperiod}{Ajoy\bibnamedelima K.}{A\bibinitperiod\bibinitdelim K\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{2}{}{%
+        {{hash=5295c4043f860b0b4ce81c561be70e2b}{Acharya}{A\bibinitperiod}{Tinku}{T\bibinitperiod}{}{}{}{}}%
+        {{hash=791ce8f559dc99df71be7e28f6ceefdb}{Ray}{R\bibinitperiod}{Ajoy\bibnamedelima K.}{A\bibinitperiod\bibinitdelim K\bibinitperiod}{}{}{}{}}%
+      }
+      \list{publisher}{1}{%
+        {Wiley}%
+      }
+      \strng{namehash}{426e15e11b0ae4a0872aa32c93162c4f}
+      \strng{fullhash}{426e15e11b0ae4a0872aa32c93162c4f}
+      \field{sortinit}{A}
+      \field{sortinithash}{c8a29dea43e9d2645817723335a4dbe8}
+      \field{labeltitle}{Image Processing - Principles and Application}
+      \field{edition}{1st}
+      \field{title}{Image Processing - Principles and Application}
+      \field{year}{2005}
+    \endentry
+    \entry{eaton:2008}{book}{}
+      \name{labelname}{3}{}{%
+        {{hash=a3cb6b617c294d2ae297f96c8d8a5c2c}{Eaton}{E\bibinitperiod}{John\bibnamedelima W}{J\bibinitperiod\bibinitdelim W\bibinitperiod}{}{}{}{}}%
+        {{hash=b23367b24f394bf9ffaf17981484f95e}{Bateman}{B\bibinitperiod}{David}{D\bibinitperiod}{}{}{}{}}%
+        {{hash=7ae6926c19b2882eb1a34e85c11f0b9e}{Hauberg}{H\bibinitperiod}{Soren}{S\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{3}{}{%
+        {{hash=a3cb6b617c294d2ae297f96c8d8a5c2c}{Eaton}{E\bibinitperiod}{John\bibnamedelima W}{J\bibinitperiod\bibinitdelim W\bibinitperiod}{}{}{}{}}%
+        {{hash=b23367b24f394bf9ffaf17981484f95e}{Bateman}{B\bibinitperiod}{David}{D\bibinitperiod}{}{}{}{}}%
+        {{hash=7ae6926c19b2882eb1a34e85c11f0b9e}{Hauberg}{H\bibinitperiod}{Soren}{S\bibinitperiod}{}{}{}{}}%
+      }
+      \list{publisher}{1}{%
+        {Network Theory Ltd.}%
+      }
+      \strng{namehash}{047811d474f8653785005a2d0d9948ba}
+      \strng{fullhash}{047811d474f8653785005a2d0d9948ba}
+      \field{sortinit}{E}
+      \field{sortinithash}{655e26c7438ff123e5c69c6c3f702107}
+      \field{labeltitle}{GNU Octave Manual Version 3}
+      \field{isbn}{095461206X, 9780954612061}
+      \field{title}{GNU Octave Manual Version 3}
+      \field{year}{2008}
+    \endentry
+    \entry{han2013}{article}{}
+      \name{labelname}{1}{}{%
+        {{hash=294077ad0b1fce37b38f7d201a56394a}{Han}{H\bibinitperiod}{Dianyuan}{D\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{hash=294077ad0b1fce37b38f7d201a56394a}{Han}{H\bibinitperiod}{Dianyuan}{D\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{294077ad0b1fce37b38f7d201a56394a}
+      \strng{fullhash}{294077ad0b1fce37b38f7d201a56394a}
+      \field{sortinit}{H}
+      \field{sortinithash}{95b2cb08933fe649b7e9f8beee2132b4}
+      \field{labeltitle}{Comparison of Commonly Used Image Interpolation Methods}
+      \field{journaltitle}{ICCSEE, Hangzhou, China}
+      \field{title}{Comparison of Commonly Used Image Interpolation Methods}
+      \field{year}{2013}
+    \endentry
+    \entry{kopf:2011}{article}{}
+      \name{labelname}{2}{}{%
+        {{hash=25901f326ed5464d64c6766e30a6cff7}{Kopf}{K\bibinitperiod}{Johannes}{J\bibinitperiod}{}{}{}{}}%
+        {{hash=5efdafaa0ac0d2a845edb7db0c1f18f6}{Lischinski}{L\bibinitperiod}{Dani}{D\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{2}{}{%
+        {{hash=25901f326ed5464d64c6766e30a6cff7}{Kopf}{K\bibinitperiod}{Johannes}{J\bibinitperiod}{}{}{}{}}%
+        {{hash=5efdafaa0ac0d2a845edb7db0c1f18f6}{Lischinski}{L\bibinitperiod}{Dani}{D\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{41a4b2216becfabf507de823a1472e31}
+      \strng{fullhash}{41a4b2216becfabf507de823a1472e31}
+      \field{sortinit}{K}
+      \field{sortinithash}{33bf4c961fa093ee6a297ccbd88eacc0}
+      \field{labeltitle}{Depixelizing Pixel Art}
+      \field{journaltitle}{ACM Transactions on Graphics (Proceedings of SIGGRAPH 2011)}
+      \field{number}{4}
+      \field{title}{Depixelizing Pixel Art}
+      \field{volume}{30}
+      \field{year}{2011}
+      \field{pages}{99:1\bibrangedash 99:8}
+    \endentry
+  \endsortlist
+\endrefsection
+\endinput
+
