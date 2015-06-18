@@ -362,13 +362,23 @@ A única diferença deste código para o mostrado na Figura~\ref{lst:rotate:near
 
 \subsection{Rotação por Interpolação Bicúbica}\label{sec:rotacao:bicubica}
 
+A Figura~\ref{fig:vaca:rotacao}.d mostra o resultado da rotação utilizando Interpolação Bicúbica.
+
+Na Figura~\ref{lst:rotate:bicubic} podemos ver o código em Octave para executar esta rotação.
+
 \begin{figure}[H]
 \lstinputlisting[language=Octave, lastline=6]{rotate-bicubic.m}
 \caption{Código-Fonte para rotação por interpolação bicúbica no Octave}
 \label{lst:rotate:bicubic}
 \end{figure}
 
+Mais uma vez, a única diferença deste código para o da Figura~\ref{lst:rotate:nearest} é o parâmetro do tipo de interpolação, que aqui é \emph{cubic}. A chamada é a mesma, e novamente a função \textsf{imrotate()} chamará a função \textsf{interp2()} para executar a interpolação.
+
+O Octave utiliza uma interpolação de Lagrange de grau 3 para cada eixo da imagem, em cada um dos três canais~\cite{eaton:2008}.
+
 \subsection{Comparação de Resultados}\label{sec:rotacao:comparacao}
+
+Na Figura~\ref{fig:vaca:rotacao} podemos ver, lado a lado, o resultado das três rotações sobre a mesma imagem, com o mesmo ângulo.
 
 \begin{figure}[H]
     \begin{minipage}{.45\textwidth}
@@ -397,6 +407,10 @@ A única diferença deste código para o mostrado na Figura~\ref{lst:rotate:near
     \label{fig:vaca:rotacao}
 \end{figure}
 
+A primeira coisa que fica evidente é a borda preta introduzida pela rotação. Isto não é um problema em um jogo 3D -- a imagem ganhou esta borda preta por artefato do formato de exibição~\cite{eaton:2008}.
+
+Analisando o resultado das imagens, junto dos tempos de execução da Tabela~\ref{tab:rotacoes}, vemos que, entre a Interpolação Bilinear (Figura~\ref{fig:vaca:rotacao}.c) e a Interpolação por \textit{Nearest Neighbor} (Figura~\ref{fig:vaca:rotacao}.b), vale mais a pena escolher a primeira. A imagem resultante é claramente melhor no caso da Interpolação Bilinear, apresentando menos serrilhados nas bordas, levando essencialmente o mesmo tempo para ser calculada.
+
 \begin{table}[H]
 \centering
 \begin{tabular}{c|c|c}
@@ -407,6 +421,8 @@ A única diferença deste código para o mostrado na Figura~\ref{lst:rotate:near
 \caption{Tempo de execução para rotações (em segundos)}
 \label{tab:rotacoes}
 \end{table}
+
+Comparando a Interpolação Bicúbica (Figura~\ref{fig:vaca:rotacao}.d) com a Interpolação Bilinear (Figura~\ref{fig:vaca:rotacao}.c), no entanto, temos uma decisão mais difícil. Por um lado, a Interpolação Bicúbica gera resultados ainda melhores, com arestas mais claramente definidas e menor perda de detalhes complexos como a grama. Por outro lado, o tempo total de execução é mais de 3 vezes maior. Isto pode ser uma perda de performance inaceitável em um jogo, dependendo da quantidade de texturas diferentes e a capacidade de se fazer \textit{cache} das mesmas.
 
 \section{Considerações Finais}
 
