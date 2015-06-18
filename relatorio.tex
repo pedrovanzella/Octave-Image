@@ -426,6 +426,16 @@ Comparando a Interpolação Bicúbica (Figura~\ref{fig:vaca:rotacao}.d) com a In
 
 \section{Considerações Finais}
 
+A escolha do método de interpolação para realizar operações de ampliação, redução e rotação sobre imagens pode causar um impacto enorme na performance de um jogo, bem como no visual dele, e, portanto, deve ser feita com cuidado.
+
+A partir da análise feita neste artigo, ficou claro que não há um método que seja superior aos outros em todos os casos. Por vezes, limitações de tempo de execução farão com que a escolha seja pelo método mais rápido, sacrificando qualidade de resposta. Em outros casos, a qualidade da imagem gerada é importante, e temos que lidar com um tempo de cálculo maior, tentando otimizar outros pontos do código.
+
+Há, ainda, muitos outros métodos de interpolação que não foram analisados neste artigo, como as \textit{splines}. Para rotações, há ainda a possibilidade de fazê-las através de multiplicação de matrizes, entre outros métodos. Uma análise mais aprofundada destes métodos, comparando os resultados tanto em qualidade quanto em tempo de execução é interessante.
+
+Novamente, mesmo com a introdução de novos métodos, é possível que os métodos mais simples ainda sejam interessantes em alguns casos, principalmente aqueles onde a qualidade de resposta não é tão importante.
+
+No geral, vemos a importância de uma análise cuidadosa de todos os métodos numéricos, de um ponto de vista de computação científica, ao aplicá-los mesmo a problemas aparentemente distantes da computação científica, clássica e acadêmica, como o desenvolvimento de jogos.
+
 \printbibliography
 
 \end{document}
