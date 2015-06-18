@@ -21,6 +21,7 @@
     "url"
     "babel"
     "inputenc"
+    "amsmath"
     "biblatex"
     "microtype"
     "float"

@@ -6,6 +6,7 @@
 
 \usepackage[brazil]{babel}   
 \usepackage[utf8]{inputenc}  
+\usepackage{amsmath}
 % UTF-8 encoding is recommended by ShareLaTex
 
 \usepackage[backend=biber]{biblatex}
@@ -232,7 +233,19 @@ A função \textsf{imresize()} novamente chamará a função \textsf{interp2()},
 
 A interpolação bicúbica é, das três testadas neste artigo, a mais complexa -- tanto em implementação quanto computacionalmente.~\cite{han2013}
 
-De acordo com~\cite{keys:1981}, podemos calcular a interpola\c{c}ão bicúbica com uma convolu\c{c}ão.
+De acordo com~\cite{keys:1981}, podemos calcular a interpola\c{c}ão bicúbica com uma convolu\c{c}ão. Entretanto, o Octave implementa uma Interpolação de Lagrange de grau 3~\cite{eaton:2008} para este fim.
+
+O Polinômio de Lagrange pode ser calculado da seguinte maneira~\cite{eaton:2008}:
+
+\[
+  P(x) = \sum^{n}_{j=1}P_j(x)
+\]
+
+Onde
+
+\[
+  P_j(x) = y_j\prod^{n}_{\substack{k=1\\k\neq j}}\frac{x-x_k}{x_j-x_k}
+\]
 
 Podemos ver na Figura~\ref{fig:vaca:bicubic} os resultados da interpolação bicúbica.
 
