@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014/Arch Linux) (preloaded format=pdflatex 2015.5.28)  18 JUN 2015 13:28
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014/Arch Linux) (preloaded format=pdflatex 2015.5.28)  18 JUN 2015 14:19
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -937,32 +937,32 @@ Overfull \hbox (76.46362pt too wide) in paragraph at lines 269--271
  []
 
 [5] (./scale-bicubic.m) [6 <./cow_cubic_smallest.png (PNG copy)> <./cow_cubic.p
-ng (PNG copy)>] (./rotate-nearest.m) (./rotate-bilinear.m) [7]
+ng (PNG copy)>] (./rotate-nearest.m) [7] (./rotate-bilinear.m)
 (./rotate-bicubic.m)
 File: cow_very_small.png Graphic file (type png)
  <use cow_very_small.png>
-Package pdftex.def Info: cow_very_small.png used on input line 364.
+Package pdftex.def Info: cow_very_small.png used on input line 376.
 (pdftex.def)             Requested size: 150.56212pt x 113.42346pt.
 
 <cow_nearest_rotated.png, id=49, 186.6975pt x 186.6975pt>
 File: cow_nearest_rotated.png Graphic file (type png)
 
 <use cow_nearest_rotated.png>
-Package pdftex.def Info: cow_nearest_rotated.png used on input line 370.
+Package pdftex.def Info: cow_nearest_rotated.png used on input line 382.
 (pdftex.def)             Requested size: 186.69704pt x 186.69704pt.
 
 <cow_bilinear_rotated.png, id=50, 186.6975pt x 186.6975pt>
 File: cow_bilinear_rotated.png Graphic file (type png)
 
 <use cow_bilinear_rotated.png>
-Package pdftex.def Info: cow_bilinear_rotated.png used on input line 376.
+Package pdftex.def Info: cow_bilinear_rotated.png used on input line 388.
 (pdftex.def)             Requested size: 186.69704pt x 186.69704pt.
 
 <cow_cubic_rotated.png, id=51, 186.6975pt x 186.6975pt>
 File: cow_cubic_rotated.png Graphic file (type png)
 
 <use cow_cubic_rotated.png>
-Package pdftex.def Info: cow_cubic_rotated.png used on input line 381.
+Package pdftex.def Info: cow_cubic_rotated.png used on input line 393.
 (pdftex.def)             Requested size: 186.69704pt x 186.69704pt.
  [8] [9 <./cow_nearest_rotated.png (PNG copy)> <./cow_bilinear_rotated.png (PNG
  copy)> <./cow_cubic_rotated.png (PNG copy)>]
@@ -979,7 +979,7 @@ Package logreq Info: Writing requests to 'relatorio.run.xml'.
 Here is how much of TeX's memory you used:
  13532 strings out of 493109
  211813 string characters out of 6140856
- 663845 words of memory out of 5000000
+ 674845 words of memory out of 5000000
  16731 multiletter control sequences out of 15000+600000
  14353 words of font info for 79 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -999,7 +999,7 @@ type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-dist/fonts/type1/public/a
 msfonts/cm/cmsy8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmti
 10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/s
 hare/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on relatorio.pdf (10 pages, 902829 bytes).
+Output written on relatorio.pdf (10 pages, 903598 bytes).
 PDF statistics:
  120 PDF objects out of 1000 (max. 8388607)
  78 compressed objects within 1 object stream

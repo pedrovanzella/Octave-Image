@@ -330,9 +330,13 @@ Novamente temos um problema não trivial, com um balanço entre qualidade e efic
 
 Novamente, compararemos três métodos para realizar a rotação: O método de \textit{Nearest Neighbor}, descrito na Seção~\ref{sec:rotacao:nearest}; o método de Interpolação Bilinear, descrito na Seção~\ref{sec:rotacao:bilinear} e o método de Interpolação Bicúbica, descrito na Seção~\ref{sec:rotacao:bicubica}.
 
+Os algoritmos são os mesmos que os apresentados na Seção~\ref{sec:redimensionamento}, apenas aplicados de maneira diferente.
+
 \subsection{Rotação por \textit{Nearest Neighbor}}\label{sec:rotacao:nearest}
 
 Podemos ver o resultado na Figura~\ref{fig:vaca:rotacao}.b.
+
+Na Figura~\ref{lst:rotate:nearest} vemos o código-fonte que executa a interpolação por \textit{Nearest Neighbor} para realizar a rotação, no Octave.
 
 \begin{figure}[H]
 \lstinputlisting[language=Octave, lastline=6]{rotate-nearest.m}
@@ -340,13 +344,21 @@ Podemos ver o resultado na Figura~\ref{fig:vaca:rotacao}.b.
 \label{lst:rotate:nearest}
 \end{figure}
 
+A função \textsf{imrotate()}, bem como a \textsf{imresize()} (vista na Seção~\ref{sec:redimensionamento}, chama a função \textsf{interp2()}. Ela recebe como parâmetros, em ordem, a imagem, o ângulo de rotação (em graus), e o método de interpolação, que é passado para a \textsf{interp2()}.~\cite{eaton:2008}
+
 \subsection{Rotação por Interpolação Bilinear}\label{sec:rotacao:bilinear}
+
+O resultado da rotação pode ser visto na Figura~\ref{fig:vaca:rotacao}.c.
+
+A Figura~\ref{lst:rotate:bilinear} mostra o código em Octave para fazer esta rotação.
 
 \begin{figure}[H]
 \lstinputlisting[language=Octave, lastline=6]{rotate-bilinear.m}
 \caption{Código-Fonte para rotação por interpolação bilinear no Octave}
 \label{lst:rotate:bilinear}
 \end{figure}
+
+A única diferença deste código para o mostrado na Figura~\ref{lst:rotate:nearest} é o parâmetro da interpolação. Na Figura~\ref{lst:rotate:nearest} é passado \emph{nearest}, e neste é passado \emph{linear}. Este parâmetro é propagado para a função \textsf{interp2()}, que é a responsável pela interpolação.
 
 \subsection{Rotação por Interpolação Bicúbica}\label{sec:rotacao:bicubica}
 
